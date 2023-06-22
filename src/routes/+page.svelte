@@ -6,7 +6,7 @@
     let pgData: PageData = {
         id: "page1",
         documentId: "doc1",
-        title: "Page",
+        title: "Page Demo",
         data: [
             {
                 type: DataType.h1,
