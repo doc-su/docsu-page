@@ -5,7 +5,7 @@ export default interface PageData {
 	documentId: string;
 	title: string;
 	description?: string;
-	data: Data[];
+	data: any[];
 	next?: string;
 	previous?: string;
 }

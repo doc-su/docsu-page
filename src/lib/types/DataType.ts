@@ -6,6 +6,7 @@ enum DataType {
 	h5 = 'h5',
 	h6 = 'h6',
 	p = 'p',
+	text = 'text',
 	image = 'image',
 	video = 'video',
 	iframe = 'iframe',

@@ -5,6 +5,7 @@
     import H4 from "$lib/components/H4.svelte";
     import H5 from "$lib/components/H5.svelte";
     import H6 from "$lib/components/H6.svelte";
+    import Paragraph from "$lib/components/Paragraph.svelte";
     import DataType from "$lib/types/DataType.js";
     import type PageData from "$lib/types/PageData.js";
 
@@ -24,5 +25,7 @@
         <H5 data={dt}></H5>
     {:else if dt.type === DataType.h6}
         <H6 data={dt}></H6>
+    {:else if dt.type === DataType.p}
+        <Paragraph data={dt}></Paragraph>
     {/if}
 {/each}
